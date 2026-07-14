@@ -5,19 +5,53 @@
   justify-content: space-between;
 }
 .left-section {
-  background-color:lightblue;
-  width: 150px;
   margin-right:70px ;
+  display: flex;
+  align-items: center;
 } 
+.humburger-menu {
+  height: 24px;
+  margin-right: 20px;
+  margin-left: 25px;
+ }
+  .youtube-logo {
+  height: 20px;
+  }
 .middle-section {
-  background-color:lightpink;
   flex: 1;
   margin-right:35px ;
   max-width: 300pxs;
+  display: flex;
+  align-items: center;
 }
+.search-bar {
+  flex: 1;
+  height: 34px;
+  padding: 0px 10px;
+  font-size: 17px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(160, 156, 156);
+}
+.search-bar::placeholder {
+  font-family:Roboto,Arial;
+  font-size: 17px;
+  color: rgb(158, 155, 155);
+}
+.search-button {
+  height: 40px;
+  width: 60px;
+ }
+.voice-search-button {
+  height: 40px;
+  width: 40px;
+}
+
 
 .right-section {
   background-color:lightblue;
   width: 200px;
   
 }
+ 
+ 
