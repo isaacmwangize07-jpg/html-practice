@@ -1,8 +1,10 @@
 .header {
-  height: 50px;
+  height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+ 
 }
 .left-section {
   margin-right:70px ;
@@ -99,6 +101,7 @@ margin-top: 5px;
   height: 30px;
   width: 30px;
   margin-left: 20px;
+  border-radius: 15px;
 
 }
  
